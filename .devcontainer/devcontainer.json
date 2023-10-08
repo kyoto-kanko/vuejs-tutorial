@@ -1,0 +1,54 @@
+{
+	"name": "vuejs-dev-container",
+	"dockerFile": "Dockerfile",
+
+	"settings": {
+		"terminal.integrated.shell.linux": "/bin/zsh",
+		"files.trimTrailingWhitespace": true,
+		"editor.formatOnSave": true,
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+        "breadcrumbs.enabled": true,
+        "editor.accessibilitySupport": "off",
+        "editor.bracketPairColorization.enabled": true,
+        "editor.cursorBlinking": "smooth",
+        "editor.renderLineHighlight": "all",
+        "editor.stickyScroll.enabled": true,
+        "files.autoSave": "onFocusChange",
+        "files.insertFinalNewline": true,
+        "files.trimFinalNewlines": true,
+        "window.zoomLevel": 1,
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.untitled.hint": "hidden",
+        "workbench.iconTheme": "vscode-icons",
+        "workbench.reduceMotion": "on",
+        "workbench.startupEditor": "none"
+	},
+
+	"extensions": [
+		"dbaeumer.vscode-eslint",
+		"octref.vetur",
+		"dariofuzinato.vue-peek",
+		"esbenp.prettier-vscode",
+		"formulahendry.auto-rename-tag",
+		"christian-kohler.path-intellisense",
+		"CoenraadS.bracket-pair-colorizer",
+		"streetsidesoftware.code-spell-checker",
+		"VisualStudioExptTeam.vscodeintellicode",
+		"mhutchie.git-graph",
+        "GitHub.copilot",
+        "oderwat.indent-rainbow",
+        "mosapride.zenkaku",
+        "MS-CEINTL.vscode-language-pack-ja",
+        "eamodio.gitlens",
+        "PKief.material-icon-theme",
+        "xabikos.JavaScriptSnippets",
+        "Vue.volar",
+        "hollowtree.vue-snippets",
+	],
+	"forwardPorts": [
+		8080,
+	],
+	"remoteUser": "node"
+}
